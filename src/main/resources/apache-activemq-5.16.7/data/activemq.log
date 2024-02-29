@@ -1,0 +1,23 @@
+2024-02-29 17:13:40,038 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@3c9f6236: startup date [Thu Feb 29 17:13:40 MSK 2024]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2024-02-29 17:13:41,191 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/home/parom/IdeaProjects/ActiveMQstudy/apache-activemq-5.16.7/bin/linux-x86-64/../../data/kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-02-29 17:13:41,398 | INFO  | PListStore:[/home/parom/IdeaProjects/ActiveMQstudy/apache-activemq-5.16.7/bin/linux-x86-64/../../data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2024-02-29 17:13:41,531 | INFO  | Apache ActiveMQ 5.16.7 (localhost, ID:parominskiy-34675-1709216021410-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-02-29 17:13:41,547 | INFO  | Listening for connections at: tcp://parominskiy:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-02-29 17:13:41,549 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-02-29 17:13:41,553 | INFO  | Listening for connections at: amqp://parominskiy:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-02-29 17:13:41,555 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-02-29 17:13:41,558 | INFO  | Listening for connections at: stomp://parominskiy:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-02-29 17:13:41,565 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-02-29 17:13:41,568 | INFO  | Listening for connections at: mqtt://parominskiy:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-02-29 17:13:41,577 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-02-29 17:13:41,581 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2024-02-29 17:13:41,643 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2024-02-29 17:13:41,714 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@535ae680{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2024-02-29 17:13:41,771 | INFO  | Listening for connections at ws://parominskiy:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2024-02-29 17:13:41,772 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-02-29 17:13:41,773 | INFO  | Apache ActiveMQ 5.16.7 (localhost, ID:parominskiy-34675-1709216021410-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-02-29 17:13:41,773 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-02-29 17:13:41,775 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /home/parom/IdeaProjects/ActiveMQstudy/apache-activemq-5.16.7/bin/linux-x86-64/../../data/kahadb only has 6711 mb of usable space. - resetting to maximum available disk space: 6711 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-02-29 17:13:41,776 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: /home/parom/IdeaProjects/ActiveMQstudy/apache-activemq-5.16.7/bin/linux-x86-64/../../data only has 6711 mb of usable space. - resetting to maximum available disk space: 6711 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-02-29 17:13:42,552 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2024-02-29 17:13:42,553 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
