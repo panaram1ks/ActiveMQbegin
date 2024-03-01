@@ -155,14 +155,14 @@
             <simpleAuthenticationPlugin anonymousAccessAllowed="false">
                 <users>
                     <authenticationUser username="system" password="system" groups="users,admins"/>
-                    <authenticationUser username="test01" password="test01" groups="users,admins"/>
+                    <authenticationUser username="user" password="user" groups="users,admins"/>
                 </users>
             </simpleAuthenticationPlugin>
             <authorizationPlugin>
                 <map>
                     <authorizationMap>
                         <authorizationEntries>
-                            <authorizationEntry queue="TEST.Q" read="users" write="users" admin="users" />
+                            <authorizationEntry queue="mytestqueue" read="users" write="users" admin="users" />
                             <authorizationEntry topic="ActiveMQ.Advisory.>" read="*" write="*" admin="*"/>
                         </authorizationEntries>
                         <tempDestinationAuthorizationEntry>
