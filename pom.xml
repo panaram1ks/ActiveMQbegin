@@ -20,6 +20,11 @@
             <artifactId>activemq-all</artifactId>
             <version>5.16.7</version>
         </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20211205</version>
+        </dependency>
     </dependencies>
 
 
