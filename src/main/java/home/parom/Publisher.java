@@ -17,9 +17,13 @@ public class Publisher {
             Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
             Destination destination = session.createQueue("mytestqueue");
 
-            TextMessage textMessage = session.createTextMessage("first message 999");
+            String[] messages = {"First message", "Second message", "Third message", "Fourth message"};
+
             MessageProducer producer = session.createProducer(destination);
-            producer.send(textMessage);
+            for (String message : messages) {
+                TextMessage textMessage = session.createTextMessage(message);
+                producer.send(textMessage);
+            }
 
             session.close();
             connection.close();
