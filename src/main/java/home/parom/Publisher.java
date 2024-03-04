@@ -17,7 +17,7 @@ public class Publisher {
             Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
             Destination destination = session.createQueue("mytestqueue");
 
-            TextMessage textMessage = session.createTextMessage("first message");
+            TextMessage textMessage = session.createTextMessage("first message 999");
             MessageProducer producer = session.createProducer(destination);
             producer.send(textMessage);
 
